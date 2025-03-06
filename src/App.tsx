@@ -50,5 +50,5 @@ export function App() {
 }
 
 function HelloComponent() {
-  return <text className='text-green-300 text-2xl'>Hello</text>;
+  return <text>Hello</text>;
 }
