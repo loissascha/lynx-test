@@ -1,6 +1,4 @@
-@import "tailwindcss";
-@source "App.tsx";
-
+@import 'tailwindcss' source('../src');
 
 :root {
   background-color: #000;
