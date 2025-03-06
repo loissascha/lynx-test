@@ -31,6 +31,7 @@ export function App() {
           </view>
           <text className="Title">React</text>
           <text className="Subtitle">on Lynx with your mom</text>
+          <text className="mt-10">Some mt 5 text</text>
           <HelloComponent />
         </view>
         <view className="Content">
