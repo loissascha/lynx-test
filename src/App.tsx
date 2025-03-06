@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from '@lynx-js/react';
 
-import './App.css';
+import './output.css';
 import arrow from './assets/arrow.png';
 import lynxLogo from './assets/lynx-logo.png';
 import reactLynxLogo from './assets/react-logo.png';
@@ -50,5 +50,5 @@ export function App() {
 }
 
 function HelloComponent() {
-  return <text>Hello</text>;
+  return <text className="text-2xl text-blue-400">Hello</text>;
 }

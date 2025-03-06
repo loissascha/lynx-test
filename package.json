@@ -9,7 +9,9 @@
     "preview": "rspeedy preview"
   },
   "dependencies": {
-    "@lynx-js/react": "^0.105.0"
+    "@lynx-js/react": "^0.105.0",
+    "@tailwindcss/cli": "^4.0.11",
+    "tailwindcss": "^4.0.11"
   },
   "devDependencies": {
     "@lynx-js/qrcode-rsbuild-plugin": "^0.3.3",
