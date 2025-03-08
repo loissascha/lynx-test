@@ -5,6 +5,14 @@
   --color-text: #fff;
 }
 
+.main-grid {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 300px 100px;
+  background: orange;
+}
+
 .Background {
   position: fixed;
   background: radial-gradient(

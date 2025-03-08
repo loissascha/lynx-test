@@ -18,8 +18,15 @@ export function App() {
   }, [alterLogo]);
 
   return (
-    <view>
-      <view className="Background" />
+    <view className="body">
+      <view className="main-grid">
+        <view className="main">
+          <text>Main</text>
+        </view>
+        <view className="tabs">
+          <text>Tab ns</text>
+        </view>
+      </view>
       <view className="App">
         <view className="Banner">
           <view className="Logo" bindtap={onTap}>
